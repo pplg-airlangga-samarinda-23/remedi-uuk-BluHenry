@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChallenge 2024</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="Container">
+        <header>
+            <div class="header-container">
+                <h1>CodeChallenge 2024</h1>
+                <nav>
+                    <button class="Navigate" onclick="ahaw(1)">Beranda</button>
+                    <button class="Navigate" onclick="ahaw(2)">Pendaftaran</button>
+                    <button class="Navigate" onclick="ahaw(3)">FAQ</button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="Page active" id="Page1">
+            <section class="intro">
+                <h2>CodeChallenge 2024</h2>
+                <div class="content">
+                    <p>
+                        Pesan terbuka buat Pak Sena . . .
+                    </p>
+                    <img src="gambar-1.png" class="box">
+                </div>
+                <div class="content">
+                    <img src="gambar-2.png" class="box">
+                    <p>
+                        Bantu saya cari tempat magang pak. please pak Aku bingung mau milih perusahaan yg mana (emot sedih) 
+                    </p>
+                </div>
+            </section>
+
+            <!-- Galeri -->
+            <section class="galeri">
+                <h3>Galeri</h3>
+                <div class="gallery-container">
+                    <img src="gambar-7.png" class="gallery-box">
+                    <img src="gambar-5.png" class="gallery-box">
+                    <img src="gambar-3.png" class="gallery-box">
+                </div>
+            </section>
+
+            <!-- Tombol -->
+            <section class="buttons">
+                <button onclick="ahaw(2)" class="alternate">Pendaftaran</button>
+                <button onclick="ahaw(3)" class="alternate" >FAQ</button>
+            </section>
+        </main>
+
+        <main class="Page" id="Page2">
+            <div class="Page2">
+                <div class="form-container">
+                    <h2 class="judul">Form Pendaftaran</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input class="inputan" type="text" id="nama" name="nama">
+                        </div>
+                        <div class="form-group">
+                            <label class="Label1">NISN</label>
+                            <input class="inputan" type="text" id="nisn" name="nisn">
+                        </div>
+                        <div class="form-group">
+                            <label  class="Label1">Asal Sekolah</label>
+                            <input class="inputan" type="text" id="asal" name="asal">
+                        </div>
+                        <div class="form-group">
+                            <label  class="Label1" >Kelas</label>
+                            <select class="selekan" id="kelas" name="kelas">
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label  class="Label1" >No. HP</label>
+                            <input class="inputan" type="text" id="hp" name="hp">
+                        </div>
+                        <div class="form-group">
+                            <label  class="Label1" >Email</label>
+                            <input class="inputan" type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label  class="Label1" >Alamat Rumah</label>
+                            <textarea id="alamat" name="alamat" rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="tombol" type="submit">Daftar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>   
+        </main>
+
+
+        <main class="Page" id="Page3">
+            <div class="Page3">
+                    <!-- Frequently Asked Questions -->
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <p><strong>Q:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar mi a iaculis dapibus.</p>
+            <p class="answer"><strong>A:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar mi a iaculis dapibus.</p>
+        </div>
+        <div class="faq">
+            <p><strong>Q:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar mi a iaculis dapibus.</p>
+            <p class="answer"><strong>A:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar mi a iaculis dapibus.</p>
+        </div>
+        <div class="faq">
+            <p><strong>Q:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar mi a iaculis dapibus.</p>
+            <p class="answer"><strong>A:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar mi a iaculis dapibus.</p>
+        </div>
+    </div>
+
+    <!-- Form Kirim Pertanyaan -->
+    <div class="form-Con">
+        <h3>Kirim Pertanyaan</h3>
+        <form>
+            <div class="form-grou">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </div>
+            <div class="form-grou">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-grou">
+                <label for="pertanyaan">Pertanyaan</label>
+                <textarea id="pertanyaan" name="pertanyaan" rows="4"></textarea>
+            </div>
+            <button class="tomb" type="submit">Kirim</button>
+        </form>
+    </div>
+
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <p>Copyright 2024</p>
+            <img src="instagram-c.png" class="circle">
+            <img src="tiktok-c.png" class="circle">
+            <img src="whatsapp-c.png" class="circle">
+        </footer>
+    </div>
+</body>
+</html>
