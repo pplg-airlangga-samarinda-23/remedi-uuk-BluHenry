@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Remedi soal 2 </title>
+        <script src="script.js"></script>
+        <style>
+        .Container {
+            border: black solid 5px;
+            padding: 30px 18px;
+            margin: 10px;
+        }
+
+        header {
+            background-color: #f9e59d;
+            padding: 5px;
+            text-align: center;
+            border: black solid 3px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        input {
+            margin: 5px;
+            padding: 5px;
+        }
+        button {
+            background-color: lightblue;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .Hitung {
+            border: black solid 3px;
+            margin: 30px auto;
+            max-width: 100%;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer {
+            background-color: #f9e59d;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: black solid 3px;
+            padding: 15px;
+        }
+
+        .circle {
+            border-radius: 20px;
+            border: black solid 5px;
+            width: 36px;
+            background-color: #333;
+        }
+
+
+        </style>
+    </head>
+    <body>
+
+        <div class="Container">
+            <header>
+                <div class="header-container">
+                    <h1>Soal 2</h1>
+                </div>
+            </header>
+            
+            <div class="Hitung">
+                <h3> Rata Rata Tinggi Badan </h3>
+                Siswa 1 <input type="number" id="siswa1" /><br>
+                Siswa 2 <input type="number" id="siswa2" /><br>
+                Siswa 3 <input type="number" id="siswa3" /><br>
+                Siswa 4 <input type="number" id="siswa4" /><br>
+                Siswa 5 <input type="number" id="siswa5" /><br><br>
+                <button onclick="hitungRataRata()">Hitung</button><br><br>
+                Hasil <input type="text" id="hasil" readonly />
+            </div>
+
+            <footer>
+                <p>Copyright 2024</p>
+                <img src="facebook-c.png" class="circle">
+                <img src="tiktok-c.png" class="circle">
+                <img src="whatsapp-c.png" class="circle">
+            </footer>
+        </div>
+    </body>
+</html>
